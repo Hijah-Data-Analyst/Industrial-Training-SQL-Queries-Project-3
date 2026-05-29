@@ -41,7 +41,7 @@ FROM industrial_dataset.data_base;
 ## Missing Coupon Codes
 ```sql
 SELECT COUNT(*) AS null_coupon_codes
-FROM industrial_dataset.data_base;
+FROM industrial_dataset.data_base
 WHERE CouponCode IS NULL
    OR TRIM(CouponCode) = '';
 ```
