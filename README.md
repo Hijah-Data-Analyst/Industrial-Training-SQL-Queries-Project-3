@@ -100,7 +100,7 @@ ReferralSource,
 AVG(TotalPrice) AS average_total_price
 FROM industrial_dataset.data_base
 GROUP BY ReferralSource
-ORDER BY avg_total_price DESC;
+ORDER BY average_total_price DESC;
 ```
 Insight: Evaluates acquisition channel quality based on customer value contribution.
 ### Question 5: Which customers have the highest total number of items in their carts?
