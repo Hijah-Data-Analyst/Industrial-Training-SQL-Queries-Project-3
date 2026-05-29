@@ -84,7 +84,7 @@ Insight: Captures demand fluctuations over time for trend and forecasting analys
 ### Question 3: How does order quantity vary across coupon codes?
 ```sql
 SELECT
-CouponCode
+CouponCode,
 SUM(Quantity) AS total_quantity
 FROM industrial_dataset.data_base
 WHERE CouponCode IS NOT NULL
@@ -96,7 +96,7 @@ Insight: Measures effectiveness of promotional incentives in driving order volum
 ### Question 4: How does average total price differ by referral source?
 ```sql
 SELECT
-ReferralSource
+ReferralSource,
 AVG(TotalPrice) AS average_total_price
 FROM industrial_dataset.data_base
 GROUP BY ReferralSource
