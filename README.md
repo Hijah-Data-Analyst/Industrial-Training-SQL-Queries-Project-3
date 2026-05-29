@@ -34,7 +34,7 @@ DESCRIBE industrial_dataset.data_base;
 ```
 ## Dataset Size
 ```sql
-SELECT COUNT (*) AS total_rows
+SELECT COUNT(*) AS total_rows
 FROM industrial_dataset.data_base;
 ```
 ### DATA QUALITY & GOVERNANCE
