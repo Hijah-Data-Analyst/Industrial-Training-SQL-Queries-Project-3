@@ -25,7 +25,7 @@ FROM industrial_dataset.data_base;
 ## Sample Records
 ```sql
 SELECT *
-FROM industrial_dataset.data_base;
+FROM industrial_dataset.data_base
 LIMIT 10;
 ```
 ## Schema Inspection
