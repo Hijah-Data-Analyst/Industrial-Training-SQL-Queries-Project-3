@@ -118,8 +118,8 @@ Insight: Identifies high-engagement customers for segmentation and retention str
 SELECT
 Product,
 SUM(Quantity) AS total_quantity,
-AVG(UnitPrice) AS average
-AVG(TotalPrice) AS average_total_price
+AVG(UnitPrice) AS average_unit_price,
+AVG(TotalPrice) AS average_total_price,
 SUM(ItemsInCart) AS total_items_in_cart
 FROM industrial_dataset.data_base
 GROUP BY Product
