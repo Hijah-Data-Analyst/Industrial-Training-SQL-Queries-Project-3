@@ -138,7 +138,7 @@ This supports long-term demand forecasting and business stability planning
 
 ---
 ### 2. Order Cancellation & Data Anomaly Reduction
-Reduce order cancellatio risk and transactional inconsistencies by strengthening:
+Reduce order cancellation risk and transactional inconsistencies by strengthening:
 - Payment system reliability
 - Checkout validation process
 - Order verification rules before transaction confirmation
