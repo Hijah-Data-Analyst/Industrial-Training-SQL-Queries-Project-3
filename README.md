@@ -1,6 +1,6 @@
 # Industrial Training SQL Analytics Project 3
 ## Dataset
-'industrial_dataset.database'
+'industrial_dataset.data_base'
 ## Domain
 Industrial Data Analysis | SQL | Business Intelligence | Data Governance
 ---
