@@ -12,7 +12,7 @@ The analytical approach follows a structured governance pipeline:
 Data Profiling - Data Quality Validation - Business KPI Analysis - Insight Synthesis - Strategic Recommendations
 ---
 ## Dataset Structure
-Key attributes I used in analysis:
+Key attributes used in analysis:
 
 OrderID, CustomerID, Product, Quantity, UnitPrice, TotalPrice, OrderStatus, CouponCode, ReferralSource, ItemsInCart, Date
 ---
